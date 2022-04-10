@@ -8,3 +8,9 @@ A simple Solidity Contract checker based on a csv DB [WIP]
 
 - Add Line Number to output
 - Add Comment from keywords.csv to output
+
+## Quick How-To
+
+1. Open [Gitpod](https://ngmisl-sollate-dmkc196ohzn.ws-eu39.gitpod.io/) in your browser
+1. Copy & Paste the SmartContract you want to check in test.sol
+1. Run
