@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["sollate"]
+  "cSpell.words": ["itertuples", "kwor", "kword", "sollate"],
+  "python.formatting.provider": "black"
 }
