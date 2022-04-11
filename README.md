@@ -8,6 +8,8 @@ A simple Solidity Contract checker based on a csv DB [WIP]
 
 - Add Line Number to output ✅
 - Add Comment from keywords.csv to output
+- Add Github contract readability
+- Add remote loading for `keywords.csv`
 
 ## Quick How-To
 
