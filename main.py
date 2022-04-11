@@ -10,11 +10,17 @@ def main(contract):
 
         # TODO: Add Line Number
         # TODO: Add respective comment from keywords.csv to output
+        
+        k_count = 0
 
         for line in f1:
             for keyword in map(str.split, keywords):
                 if all([key in line for key in keyword]):
+                    k_count +=1
                     print("Found: {}Keywords: {}".format(line, keyword))
+                    print("--------------------------------")
+        print("Total Potential Exploits: {}".format(k_count))
+        print("--------------------------------")
     return
 
 
