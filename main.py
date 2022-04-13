@@ -18,7 +18,7 @@ def main(contract):
                     k_count += 1
                     print(f"Found: {line}Keywords: {keyword}, Line: {num}")
                     print("--------------------------------")
-                    
+
         print(f"Total Potential Exploits: {k_count}")
         print("--------------------------------")
     return
