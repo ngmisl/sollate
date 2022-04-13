@@ -16,10 +16,10 @@ def main(contract):
             for keyword in map(str.split, keywords):
                 if all([key in line for key in keyword]):
                     k_count += 1
-                    print("Found: {}Keywords: {}, Line: {}".format(line, keyword, num))
+                    print(f"Found: {line}Keywords: {keyword}, Line: {num}")
                     print("--------------------------------")
                     
-        print("Total Potential Exploits: {}".format(k_count))
+        print(f"Total Potential Exploits: {k_count}")
         print("--------------------------------")
     return
 
