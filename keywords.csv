@@ -3,3 +3,4 @@ _burn(account amount), https://twitter.com/peckshield/status/1511078846816169985
 // require(msg.sender == address(routerAddress), removed check https://twitter.com/DegenSwapDex/status/1507041344732028937
 _balances[user] = _balances[user] - amount;, underflow https://twitter.com/peckshield/status/1505495324516782081
 require(!_antiBot[sender],whitelist only be careful! https://twitter.com/PeckShieldAlert/status/1495610035116064768
+if (_allowances[sender][msg.sender] != type(uint256).max) {,possible backdoor https://mobile.twitter.com/peckshield/status/1514742534882598923/photo/1
